@@ -54,7 +54,7 @@ public class TextBoxTestDataFromDB extends BaseClass {
         Assert.assertTrue(textBoxPage.getSubmittedName().contains(fullName));
         Assert.assertTrue(textBoxPage.getSubmittedEmail().contains(email));
 
-        String message = "✅ [Automation Tester] TextBox Form Submitted Successfully at " + Library.DateTimeString_LOGGING_24_HRS();
+        String message = "[Automation Tester] TextBox Form Submitted Successfully at " + Library.DateTimeString_LOGGING_24_HRS();
         dbUtils.updateAutomationTestingStatus(DBTables.DB_TABLE_TextBoxData, row.get("NameId"),"NameId", message);
     }
 
