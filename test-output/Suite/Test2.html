@@ -1,0 +1,156 @@
+<html>
+<head>
+<title>TestNG:  Test2</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>Test2</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>2/0/0</td>
+</tr><tr>
+<td>Started on:</td><td>Sun Jun 01 05:11:01 IST 2025</td>
+</tr>
+<tr><td>Total time:</td><td>59 seconds (59162 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td><b>Attribute(s)</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='com.test.demoqa.PracticeFormTest.fillPracticeFormTest()'><b>fillPracticeFormTest</b><br>Test class: com.test.demoqa.PracticeFormTest<br/>
+<a href="#Output-1893462807" onClick='toggleBox("Output-1893462807", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1893462807" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1893462807">
+<div style='border: 2px solid #007bff; padding: 10px; border-radius: 5px; background-color: #f9f9f9; display: inline-block; width: auto;'><strong style='color: #18122B;'>🕒 Test case Start   :</strong> <span style='font-weight: bold; color: #000;'>01/06/2025 05:11:27 AM</span></div><br/>
+<div style='border: 1px solid #e0e0e0;padding: 8px 12px;margin: 8px 0;border-radius: 6px;background: linear-gradient(to right, #f8f9fa, #ffffff);box-shadow: 0 2px 4px rgba(0,0,0,0.05);display: inline-block;font-family: Arial, sans-serif;'><span style='font-weight: bold;color: #333;'>🌍 Browser Info:</span> <span style='color: #2c7be5;font-weight: 500;'><img src='data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA0NDggNTEyIj48cGF0aCBmaWxsPSIjRkZDMTAyIiBkPSJNMjI0IDI1NmMwIDEyLjktNyAyNC40LTE3LjcgMjkuNkwxODcgMzA5LjljLTUuNCAzLTEyLjMgMy4xLTE3LjcuMS0xMC40LTUuOS0xNi43LTE2LjktMTYuNy0yOC42VjE5OGMwLTEyLjkgNy0yNC40IDE3LjctMjkuNkwxODcgMTQyLjFjNS40LTMgMTIuMy0zLjEgMTcuNy0uMSAxMC40IDUuOSAxNi43IDE2LjkgMTYuNyAyOC42djU4LjJ6Ii8+PHBhdGggZmlsbD0iIzRBNDlGNSIgZD0iTTIyNCAyNTZjMCAxMi45LTcgMjQuNC0xNy43IDI5LjZMMTg3IDMwOS45Yy01LjQgMy0xMi4zIDMuMS0xNy43LjEtMTAuNC01LjktMTYuNy0xNi45LTE2LjctMjguNlYxOThjMC0xMi45IDctMjQuNCAxNy43LTI5LjZMMTg3IDE0Mi4xYzUuNC0zIDEyLjMtMy4xIDE3LjctLjEgMTAuNCA1LjkgMTYuNyAxNi45IDE2LjcgMjguNnY1OC4yeiIvPjxwYXRoIGZpbGw9IiNGRkMxMDIiIGQ9Ik0yMjQgMjU2YzAgMTIuOS03IDI0LjQtMTcuNyAyOS42TDE4NyAzMDkuOWMtNS40IDMtMTIuMyAzLjEtMTcuNy4xLTEwLjQtNS45LTE2LjctMTYuOS0xNi43LTI4LjZWMTk4YzAtMTIuOSA3LTI0LjQgMTcuNy0yOS42TDE4NyAxNDIuMWM1LjQtMyAxMi4zLTMuMSAxNy43LS4xIDEwLjQgNS45IDE2LjcgMTYuOSAxNi43IDI4LjZ2NTguMnoiLz48cGF0aCBmaWxsPSIjRkZDMTAyIiBkPSJNMjI0IDI1NmMwIDEyLjktNyAyNC40LTE3LjcgMjkuNkwxODcgMzA5LjljLTUuNCAzLTEyLjMgMy4xLTE3LjcuMS0xMC40LTUuOS0xNi43LTE2LjktMTYuNy0yOC42VjE5OGMwLTEyLjkgNy0yNC40IDE3LjctMjkuNkwxODcgMTQyLjFjNS40LTMgMTIuMy0zLjEgMTcuNy0uMSAxMC40IDUuOSAxNi43IDE2LjkgMTYuNyAyOC42djU4LjJ6Ii8+PC9zdmc+' height='20' width='20' style='vertical-align: middle;' /> <span style='color: #4285F4;'>Google Chrome</span></span></div><br/>
+<div style="border: 1px solid #ddd; padding: 8px; margin: 5px 0; border-radius: 4px; background-color: #f7f7f7; display: inline-block;"><strong>💻 #System Info</strong> :: <strong>PC Name</strong> ⇒ <span style="color: #001dff;">ANKUSH1111</span> &nbsp;&nbsp;|&nbsp;&nbsp; <strong>User</strong> ⇒ <span style="color: #006400;">HP</span></div><br/>
+Maxlength is not Defined/ Maxlength User Defined  For The Field :First Name<br/>
+<div style='border: 1px solid #ddd; padding: 8px; margin: 5px 0; border-radius: 4px; background-color: #f7f7f7; display: inline-block;'><strong>#TXTBX ▭</strong> :: <strong>First Name</strong> Value entered ⇒ <span style='color: #009;'>Ankush</span></div><br/>
+Maxlength is not Defined/ Maxlength User Defined  For The Field :Last Name<br/>
+<div style='border: 1px solid #ddd; padding: 8px; margin: 5px 0; border-radius: 4px; background-color: #f7f7f7; display: inline-block;'><strong>#TXTBX ▭</strong> :: <strong>Last Name</strong> Value entered ⇒ <span style='color: #009;'>Agle</span></div><br/>
+Maxlength is not Defined/ Maxlength User Defined  For The Field :Email<br/>
+<div style='border: 1px solid #ddd; padding: 8px; margin: 5px 0; border-radius: 4px; background-color: #f7f7f7; display: inline-block;'><strong>#TXTBX ▭</strong> :: <strong>Email</strong> Value entered ⇒ <span style='color: #009;'>ankushagle777@gmail.com</span></div><br/>
+Click Sucessfully==Again Double Click==Gender Male Radio<br/>
+<div style='border: 1px solid #ddd; padding: 8px; margin: 5px 0; border-radius: 4px; background-color: #f7f7f7; display: inline-block;'><strong>#TXTBX ▭</strong> :: <strong>Mobile Number</strong> Value entered ⇒ <span style='color: #009;'>9284420259</span></div><br/>
+Maxlength is not Defined/ Maxlength User Defined  For The Field :Date of Birth<br/>
+<div style='border: 1px solid #ddd; padding: 8px; margin: 5px 0; border-radius: 4px; background-color: #f7f7f7; display: inline-block;'><strong>#TXTBX ▭</strong> :: <strong>Date of Birth</strong> Value entered ⇒ <span style='color: #009;'>21 Feb 1997</span></div><br/>
+Maxlength is not Defined/ Maxlength User Defined  For The Field :Current Address<br/>
+<div style='border: 1px solid #ddd; padding: 8px; margin: 5px 0; border-radius: 4px; background-color: #f7f7f7; display: inline-block;'><strong>#TXTBX ▭</strong> :: <strong>Current Address</strong> Value entered ⇒ <span style='color: #009;'>Aurangabad, Maharashtra</span></div><br/>
+Click Sucessfully==Again Double Click==Submit Button<br/>
+📋 Navigating to Home Page...<br/>
+📋 Attempting to close modal popup (if present)...<br/>
+⏳ Waiting for Home link to be clickable...<br/>
+❌ Navigation to Home Page failed: Expected condition failed: waiting for element to be clickable: By.xpath: //a[contains(@href,'home')] (tried for 2 second(s) with 500 milliseconds interval)
+Build info: version: '4.12.1', revision: '8e34639b11'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '18.0.1.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 136.0.7103.114, chrome: {chromedriverVersion: 136.0.7103.113 (76fa3c17824..., userDataDir: C:\Users\HP\AppData\Local\T...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:53906}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:53906/devtoo..., se:cdpVersion: 136.0.7103.114, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 347bd2354e8b47474ad5343b6ebac611<br/>
+<h4 style="color:#5F0F40;"><b>Total execution time: 29145581 minutes 59 seconds</b></h4><br/>
+<div style='border: 2px solid #007bff; padding: 10px; border-radius: 5px; background-color: #f9f9f9; display: inline-block; width: auto;'><strong style='color: #18122B;'>🕒 Test case Success   :</strong> <span style='font-weight: bold; color: #000;'>01/06/2025 05:11:59 AM</span></div><br/>
+<a href="#summary" style="background-color: blue; color: white; padding: 5px 10px; border-radius: 5px; text-decoration: none; font-size: 16px; margin: 4px 2px; display: inline-block; cursor: pointer;" onmouseover="this.style.backgroundColor='green'" onmouseout="this.style.backgroundColor='blue'">Back To Summary</a><br/>
+<br><br/>
+</div>
+</td>
+<td></td>
+<td>28</td>
+<td>com.test.demoqa.PracticeFormTest@706cb08</td></tr>
+<tr>
+<td title='com.test.demoqa.TextBoxTest.verifyTextBoxFormSubmission()'><b>verifyTextBoxFormSubmission</b><br>Test class: com.test.demoqa.TextBoxTest<br/>
+<a href="#Output-133013840" onClick='toggleBox("Output-133013840", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-133013840" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-133013840">
+<div style='border: 2px solid #007bff; padding: 10px; border-radius: 5px; background-color: #f9f9f9; display: inline-block; width: auto;'><strong style='color: #18122B;'>🕒 Test case Start   :</strong> <span style='font-weight: bold; color: #000;'>01/06/2025 05:11:27 AM</span></div><br/>
+<div style='border: 1px solid #e0e0e0;padding: 8px 12px;margin: 8px 0;border-radius: 6px;background: linear-gradient(to right, #f8f9fa, #ffffff);box-shadow: 0 2px 4px rgba(0,0,0,0.05);display: inline-block;font-family: Arial, sans-serif;'><span style='font-weight: bold;color: #333;'>🌍 Browser Info:</span> <span style='color: #2c7be5;font-weight: 500;'><img src='data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA0NDggNTEyIj48cGF0aCBmaWxsPSIjRkZDMTAyIiBkPSJNMjI0IDI1NmMwIDEyLjktNyAyNC40LTE3LjcgMjkuNkwxODcgMzA5LjljLTUuNCAzLTEyLjMgMy4xLTE3LjcuMS0xMC40LTUuOS0xNi43LTE2LjktMTYuNy0yOC42VjE5OGMwLTEyLjkgNy0yNC40IDE3LjctMjkuNkwxODcgMTQyLjFjNS40LTMgMTIuMy0zLjEgMTcuNy0uMSAxMC40IDUuOSAxNi43IDE2LjkgMTYuNyAyOC42djU4LjJ6Ii8+PHBhdGggZmlsbD0iIzRBNDlGNSIgZD0iTTIyNCAyNTZjMCAxMi45LTcgMjQuNC0xNy43IDI5LjZMMTg3IDMwOS45Yy01LjQgMy0xMi4zIDMuMS0xNy43LjEtMTAuNC01LjktMTYuNy0xNi45LTE2LjctMjguNlYxOThjMC0xMi45IDctMjQuNCAxNy43LTI5LjZMMTg3IDE0Mi4xYzUuNC0zIDEyLjMtMy4xIDE3LjctLjEgMTAuNCA1LjkgMTYuNyAxNi45IDE2LjcgMjguNnY1OC4yeiIvPjxwYXRoIGZpbGw9IiNGRkMxMDIiIGQ9Ik0yMjQgMjU2YzAgMTIuOS03IDI0LjQtMTcuNyAyOS42TDE4NyAzMDkuOWMtNS40IDMtMTIuMyAzLjEtMTcuNy4xLTEwLjQtNS45LTE2LjctMTYuOS0xNi43LTI4LjZWMTk4YzAtMTIuOSA3LTI0LjQgMTcuNy0yOS42TDE4NyAxNDIuMWM1LjQtMyAxMi4zLTMuMSAxNy43LS4xIDEwLjQgNS45IDE2LjcgMTYuOSAxNi43IDI4LjZ2NTguMnoiLz48cGF0aCBmaWxsPSIjRkZDMTAyIiBkPSJNMjI0IDI1NmMwIDEyLjktNyAyNC40LTE3LjcgMjkuNkwxODcgMzA5LjljLTUuNCAzLTEyLjMgMy4xLTE3LjcuMS0xMC40LTUuOS0xNi43LTE2LjktMTYuNy0yOC42VjE5OGMwLTEyLjkgNy0yNC40IDE3LjctMjkuNkwxODcgMTQyLjFjNS40LTMgMTIuMy0zLjEgMTcuNy0uMSAxMC40IDUuOSAxNi43IDE2LjkgMTYuNyAyOC42djU4LjJ6Ii8+PC9zdmc+' height='20' width='20' style='vertical-align: middle;' /> <span style='color: #4285F4;'>Google Chrome</span></span></div><br/>
+<div style="border: 1px solid #ddd; padding: 8px; margin: 5px 0; border-radius: 4px; background-color: #f7f7f7; display: inline-block;"><strong>💻 #System Info</strong> :: <strong>PC Name</strong> ⇒ <span style="color: #001dff;">ANKUSH1111</span> &nbsp;&nbsp;|&nbsp;&nbsp; <strong>User</strong> ⇒ <span style="color: #006400;">HP</span></div><br/>
+Maxlength is not Defined/ Maxlength User Defined  For The Field :Full Name<br/>
+<div style='border: 1px solid #ddd; padding: 8px; margin: 5px 0; border-radius: 4px; background-color: #f7f7f7; display: inline-block;'><strong>#TXTBX ▭</strong> :: <strong>Full Name</strong> Value entered ⇒ <span style='color: #009;'>Ankush Agle</span></div><br/>
+Maxlength is not Defined/ Maxlength User Defined  For The Field :Email<br/>
+<div style='border: 1px solid #ddd; padding: 8px; margin: 5px 0; border-radius: 4px; background-color: #f7f7f7; display: inline-block;'><strong>#TXTBX ▭</strong> :: <strong>Email</strong> Value entered ⇒ <span style='color: #009;'>ankush@example.com</span></div><br/>
+Maxlength is not Defined/ Maxlength User Defined  For The Field :Current Address<br/>
+<div style='border: 1px solid #ddd; padding: 8px; margin: 5px 0; border-radius: 4px; background-color: #f7f7f7; display: inline-block;'><strong>#TXTBX ▭</strong> :: <strong>Current Address</strong> Value entered ⇒ <span style='color: #009;'>Paithan, Maharashtra</span></div><br/>
+Maxlength is not Defined/ Maxlength User Defined  For The Field :Permanent Address<br/>
+<div style='border: 1px solid #ddd; padding: 8px; margin: 5px 0; border-radius: 4px; background-color: #f7f7f7; display: inline-block;'><strong>#TXTBX ▭</strong> :: <strong>Permanent Address</strong> Value entered ⇒ <span style='color: #009;'>Aurangabad, Maharashtra</span></div><br/>
+<div style='border: 1px solid #ddd; padding: 8px; margin: 5px 0; border-radius: 4px; background-color: #f7f7f7; display: inline-block;'><strong>#BTN 📤</strong> :: <strong>Clicked On</strong> ⇒ <span style='color: #001dff;'>Submit Button</span></div><br/>
+📋 Navigating to Home Page...<br/>
+📋 Attempting to close modal popup (if present)...<br/>
+⏳ Waiting for Home link to be clickable...<br/>
+❌ Navigation to Home Page failed: Expected condition failed: waiting for element to be clickable: By.xpath: //a[contains(@href,'home')] (tried for 2 second(s) with 500 milliseconds interval)
+Build info: version: '4.12.1', revision: '8e34639b11'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '18.0.1.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 136.0.7103.114, chrome: {chromedriverVersion: 136.0.7103.113 (76fa3c17824..., userDataDir: C:\Users\HP\AppData\Local\T...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:53907}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:53907/devtoo..., se:cdpVersion: 136.0.7103.114, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 391d391eb3860f173ea1417321a00491<br/>
+<h4 style="color:#5F0F40;"><b>Total execution time: 29145581 minutes 37 seconds</b></h4><br/>
+<div style='border: 2px solid #007bff; padding: 10px; border-radius: 5px; background-color: #f9f9f9; display: inline-block; width: auto;'><strong style='color: #18122B;'>🕒 Test case Success   :</strong> <span style='font-weight: bold; color: #000;'>01/06/2025 05:11:37 AM</span></div><br/>
+<a href="#summary" style="background-color: blue; color: white; padding: 5px 10px; border-radius: 5px; text-decoration: none; font-size: 16px; margin: 4px 2px; display: inline-block; cursor: pointer;" onmouseover="this.style.backgroundColor='green'" onmouseout="this.style.backgroundColor='blue'">Back To Summary</a><br/>
+<br><br/>
+</div>
+</td>
+<td></td>
+<td>7</td>
+<td>com.test.demoqa.TextBoxTest@4e25147a</td></tr>
+</table><p>
+</body>
+</html>

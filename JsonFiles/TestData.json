@@ -1,0 +1,426 @@
+{
+    "TextBoxTest": [
+        {
+            "Full Name": "Harprit Barar",
+            "Email": "ankush.agle@test.com",
+            "Current Address": "Paithan, Maharashtra",
+            "Permanent Address": "Aurangabad, Maharashtra"
+        },
+        {
+            "Full Name": "Priya Sharma",
+            "Email": "priya.sharma@test.com",
+            "Current Address": "Pune, Maharashtra",
+            "Permanent Address": "Nagpur, Maharashtra"
+        },
+        {
+            "Full Name": "Rahul Verma",
+            "Email": "rahul.verma@test.com",
+            "Current Address": "Bhopal, Madhya Pradesh",
+            "Permanent Address": "Indore, Madhya Pradesh"
+        },
+        {
+            "Full Name": "Sneha Patil",
+            "Email": "sneha.patil@test.com",
+            "Current Address": "Nashik, Maharashtra",
+            "Permanent Address": "Kolhapur, Maharashtra"
+        },
+        {
+            "Full Name": "Karan Mehta",
+            "Email": "karan.mehta@test.com",
+            "Current Address": "Jaipur, Rajasthan",
+            "Permanent Address": "Udaipur, Rajasthan"
+        },
+        {
+            "Full Name": "Pooja Nair",
+            "Email": "pooja.nair@test.com",
+            "Current Address": "Kochi, Kerala",
+            "Permanent Address": "Trivandrum, Kerala"
+        },
+        {
+            "Full Name": "Amit Deshmukh",
+            "Email": "amit.deshmukh@test.com",
+            "Current Address": "Mumbai, Maharashtra",
+            "Permanent Address": "Pune, Maharashtra"
+        },
+        {
+            "Full Name": "Anjali Rao",
+            "Email": "anjali.rao@test.com",
+            "Current Address": "Hyderabad, Telangana",
+            "Permanent Address": "Warangal, Telangana"
+        },
+        {
+            "Full Name": "Saurabh Yadav",
+            "Email": "saurabh.yadav@test.com",
+            "Current Address": "Lucknow, Uttar Pradesh",
+            "Permanent Address": "Kanpur, Uttar Pradesh"
+        },
+        {
+            "Full Name": "Neha Kulkarni",
+            "Email": "neha.kulkarni@test.com",
+            "Current Address": "Satara, Maharashtra",
+            "Permanent Address": "Sangli, Maharashtra"
+        },
+        {
+            "Full Name": "Manish Gupta",
+            "Email": "manish.gupta@test.com",
+            "Current Address": "Delhi",
+            "Permanent Address": "Noida, Uttar Pradesh"
+        },
+        {
+            "Full Name": "Ayesha Khan",
+            "Email": "ayesha.khan@test.com",
+            "Current Address": "Bhopal, Madhya Pradesh",
+            "Permanent Address": "Gwalior, Madhya Pradesh"
+        },
+        {
+            "Full Name": "Rohan Joshi",
+            "Email": "rohan.joshi@test.com",
+            "Current Address": "Nagpur, Maharashtra",
+            "Permanent Address": "Akola, Maharashtra"
+        },
+        {
+            "Full Name": "Meena Rathi",
+            "Email": "meena.rathi@test.com",
+            "Current Address": "Surat, Gujarat",
+            "Permanent Address": "Rajkot, Gujarat"
+        },
+        {
+            "Full Name": "Deepak Singh",
+            "Email": "deepak.singh@test.com",
+            "Current Address": "Patna, Bihar",
+            "Permanent Address": "Gaya, Bihar"
+        },
+        {
+            "Full Name": "Kavita Bansal",
+            "Email": "kavita.bansal@test.com",
+            "Current Address": "Chandigarh",
+            "Permanent Address": "Panchkula, Haryana"
+        },
+        {
+            "Full Name": "Rajesh Kumar",
+            "Email": "rajesh.kumar@test.com",
+            "Current Address": "Ranchi, Jharkhand",
+            "Permanent Address": "Jamshedpur, Jharkhand"
+        },
+        {
+            "Full Name": "Swati Mishra",
+            "Email": "swati.mishra@test.com",
+            "Current Address": "Varanasi, Uttar Pradesh",
+            "Permanent Address": "Allahabad, Uttar Pradesh"
+        },
+        {
+            "Full Name": "Vikram Shetty",
+            "Email": "vikram.shetty@test.com",
+            "Current Address": "Mangalore, Karnataka",
+            "Permanent Address": "Udupi, Karnataka"
+        },
+        {
+            "Full Name": "Tanya Desai",
+            "Email": "tanya.desai@test.com",
+            "Current Address": "Ahmedabad, Gujarat",
+            "Permanent Address": "Vadodara, Gujarat"
+        }
+    ],
+    "PracticeFormData": [
+        {
+            "First Name": "Harprit",
+            "Last Name": "Brar",
+            "Email": "harpritBarar.agle@test.com",
+            "Gender": "Male",
+            "Mobile Number": 9876543210,
+            "Date of Birth": "01/02/2001",
+            "Subjects": "Math, Physics",
+            "Hobbies": "Reading, Music",
+            "Picture": "photo1.jpg",
+            "Current Address": "Paithan, Maharashtra",
+            "State": "NCR",
+            "City": "Delhi",
+            "UploadFilePath": "C:\\Users\\HP\\Documents\\Ahmedabad\\ANKUSH_FRAMEWORK\\ScreenShots\\Validation\\valdn01_09_2025_01_09_10.png"
+        },
+        {
+            "First Name": "Hashim",
+            "Last Name": "Sharma",
+            "Email": "hashim.sharma@test.com",
+            "Gender": "Male",
+            "Mobile Number": 9123456780,
+            "Date of Birth": "10-01-1997",
+            "Subjects": "English",
+            "Hobbies": "Sports",
+            "Picture": "photo2.jpg",
+            "Current Address": "Pune, Maharashtra",
+            "State": "Uttar Pradesh",
+            "City": "Lucknow",
+            "UploadFilePath": "C:\\Users\\HP\\Documents\\Ahmedabad\\ANKUSH_FRAMEWORK\\ScreenShots\\Validation\\valdn01_09_2025_01_09_25.png"
+        },
+        {
+            "First Name": "Rahul",
+            "Last Name": "Verma",
+            "Email": "rahul.verma@test.com",
+            "Gender": "Male",
+            "Mobile Number": 9988776655,
+            "Date of Birth": "25-10-1990",
+            "Subjects": "Chemistry",
+            "Hobbies": "Music",
+            "Picture": "photo3.jpg",
+            "Current Address": "Bhopal, Madhya Pradesh",
+            "State": "Haryana",
+            "City": "Karnal",
+            "UploadFilePath": "C:\\Users\\HP\\Documents\\Ahmedabad\\ANKUSH_FRAMEWORK\\ScreenShots\\Validation\\valdn01_09_2025_01_09_39.png"
+        },
+        {
+            "First Name": "Sneha",
+            "Last Name": "Patil",
+            "Email": "sneha.patil@test.com",
+            "Gender": "Female",
+            "Mobile Number": 9871234567,
+            "Date of Birth": "27-01-2004",
+            "Subjects": "Biology",
+            "Hobbies": "Reading, Sports",
+            "Picture": "photo4.jpg",
+            "Current Address": "Nashik, Maharashtra",
+            "State": "Rajasthan",
+            "City": "Jaipur",
+            "UploadFilePath": "C:\\Users\\HP\\Documents\\Ahmedabad\\ANKUSH_FRAMEWORK\\ScreenShots\\Validation\\valdn01_09_2025_01_09_54.png"
+        },
+        {
+            "First Name": "Karan",
+            "Last Name": "Mehta",
+            "Email": "karan.mehta@test.com",
+            "Gender": "Male",
+            "Mobile Number": 9123456789,
+            "Date of Birth": "26-01-1998",
+            "Subjects": "History",
+            "Hobbies": "Music",
+            "Picture": "photo5.jpg",
+            "Current Address": "Jaipur, Rajasthan",
+            "State": "NCR",
+            "City": "Gurgaon",
+            "UploadFilePath": "C:\\Users\\HP\\Documents\\Ahmedabad\\ANKUSH_FRAMEWORK\\ScreenShots\\Validation\\valdn01_10_2025_01_10_10.png"
+        },
+        {
+            "First Name": "Pooja",
+            "Last Name": "Nair",
+            "Email": "pooja.nair@test.com",
+            "Gender": "Female",
+            "Mobile Number": 9876543211,
+            "Date of Birth": "10-10-1996",
+            "Subjects": "Economics",
+            "Hobbies": "Sports, Reading",
+            "Picture": "photo6.jpg",
+            "Current Address": "Kochi, Kerala",
+            "State": "Uttar Pradesh",
+            "City": "Agra",
+            "UploadFilePath": NaN
+        },
+        {
+            "First Name": "Amit",
+            "Last Name": "Deshmukh",
+            "Email": "amit.deshmukh@test.com",
+            "Gender": "Male",
+            "Mobile Number": 9988776654,
+            "Date of Birth": "12-07-2001",
+            "Subjects": "Geography",
+            "Hobbies": "Music",
+            "Picture": "photo7.jpg",
+            "Current Address": "Mumbai, Maharashtra",
+            "State": "Haryana",
+            "City": "Panipat",
+            "UploadFilePath": NaN
+        },
+        {
+            "First Name": "Anjali",
+            "Last Name": "Rao",
+            "Email": "anjali.rao@test.com",
+            "Gender": "Female",
+            "Mobile Number": 9871234568,
+            "Date of Birth": "04-04-1997",
+            "Subjects": "Political Science",
+            "Hobbies": "Reading",
+            "Picture": "photo8.jpg",
+            "Current Address": "Hyderabad, Telangana",
+            "State": "Rajasthan",
+            "City": "Jodhpur",
+            "UploadFilePath": NaN
+        },
+        {
+            "First Name": "Saurabh",
+            "Last Name": "Yadav",
+            "Email": "saurabh.yadav@test.com",
+            "Gender": "Male",
+            "Mobile Number": 9123456790,
+            "Date of Birth": "1990-09-18T00:00:00",
+            "Subjects": "Computer Science",
+            "Hobbies": "Sports",
+            "Picture": "photo9.jpg",
+            "Current Address": "Lucknow, Uttar Pradesh",
+            "State": "NCR",
+            "City": "Noida",
+            "UploadFilePath": NaN
+        },
+        {
+            "First Name": "Neha",
+            "Last Name": "Kulkarni",
+            "Email": "neha.kulkarni@test.com",
+            "Gender": "Female",
+            "Mobile Number": 9876543212,
+            "Date of Birth": "10-10-1990",
+            "Subjects": "Art",
+            "Hobbies": "Music",
+            "Picture": "photo10.jpg",
+            "Current Address": "Satara, Maharashtra",
+            "State": "Uttar Pradesh",
+            "City": "Kanpur",
+            "UploadFilePath": NaN
+        },
+        {
+            "First Name": "Manish",
+            "Last Name": "Gupta",
+            "Email": "manish.gupta@test.com",
+            "Gender": "Male",
+            "Mobile Number": 9988776653,
+            "Date of Birth": "10-10-2001",
+            "Subjects": "Physics",
+            "Hobbies": "Reading",
+            "Picture": "photo11.jpg",
+            "Current Address": "Delhi",
+            "State": "Haryana",
+            "City": "Ambala",
+            "UploadFilePath": NaN
+        },
+        {
+            "First Name": "Ayesha",
+            "Last Name": "Khan",
+            "Email": "ayesha.khan@test.com",
+            "Gender": "Female",
+            "Mobile Number": 9871234569,
+            "Date of Birth": "28-02-1997",
+            "Subjects": "Chemistry",
+            "Hobbies": "Sports, Music",
+            "Picture": "photo12.jpg",
+            "Current Address": "Bhopal, Madhya Pradesh",
+            "State": "Rajasthan",
+            "City": "Udaipur",
+            "UploadFilePath": NaN
+        },
+        {
+            "First Name": "Rohan",
+            "Last Name": "Joshi",
+            "Email": "rohan.joshi@test.com",
+            "Gender": "Male",
+            "Mobile Number": 9123456791,
+            "Date of Birth": "01-01-2001",
+            "Subjects": "Math",
+            "Hobbies": "Reading",
+            "Picture": "photo13.jpg",
+            "Current Address": "Nagpur, Maharashtra",
+            "State": "NCR",
+            "City": "Faridabad",
+            "UploadFilePath": NaN
+        },
+        {
+            "First Name": "Meena",
+            "Last Name": "Rathi",
+            "Email": "meena.rathi@test.com",
+            "Gender": "Female",
+            "Mobile Number": 9876543213,
+            "Date of Birth": "10-01-1989",
+            "Subjects": "English",
+            "Hobbies": "Music",
+            "Picture": "photo14.jpg",
+            "Current Address": "Surat, Gujarat",
+            "State": "Uttar Pradesh",
+            "City": "Varanasi",
+            "UploadFilePath": NaN
+        },
+        {
+            "First Name": "Deepak",
+            "Last Name": "Singh",
+            "Email": "deepak.singh@test.com",
+            "Gender": "Male",
+            "Mobile Number": 9988776652,
+            "Date of Birth": "10-01-2000",
+            "Subjects": "Biology",
+            "Hobbies": "Sports",
+            "Picture": "photo15.jpg",
+            "Current Address": "Patna, Bihar",
+            "State": "Haryana",
+            "City": "Hisar",
+            "UploadFilePath": NaN
+        },
+        {
+            "First Name": "Kavita",
+            "Last Name": "Bansal",
+            "Email": "kavita.bansal@test.com",
+            "Gender": "Female",
+            "Mobile Number": 9871234570,
+            "Date of Birth": "10-10-2000",
+            "Subjects": "History",
+            "Hobbies": "Reading, Music",
+            "Picture": "photo16.jpg",
+            "Current Address": "Chandigarh",
+            "State": "Rajasthan",
+            "City": "Bikaner",
+            "UploadFilePath": NaN
+        },
+        {
+            "First Name": "Rajesh",
+            "Last Name": "Kumar",
+            "Email": "rajesh.kumar@test.com",
+            "Gender": "Male",
+            "Mobile Number": 9123456792,
+            "Date of Birth": "30-01-2015",
+            "Subjects": "Geography",
+            "Hobbies": "Sports",
+            "Picture": "photo17.jpg",
+            "Current Address": "Ranchi, Jharkhand",
+            "State": "NCR",
+            "City": "Ghaziabad",
+            "UploadFilePath": NaN
+        },
+        {
+            "First Name": "Swati",
+            "Last Name": "Mishra",
+            "Email": "swati.mishra@test.com",
+            "Gender": "Female",
+            "Mobile Number": 9876543214,
+            "Date of Birth": "01-01-2025",
+            "Subjects": "Political Science",
+            "Hobbies": "Music",
+            "Picture": "photo18.jpg",
+            "Current Address": "Varanasi, Uttar Pradesh",
+            "State": "Uttar Pradesh",
+            "City": "Meerut",
+            "UploadFilePath": NaN
+        },
+        {
+            "First Name": "Vikram",
+            "Last Name": "Shetty",
+            "Email": "vikram.shetty@test.com",
+            "Gender": "Male",
+            "Mobile Number": 9988776651,
+            "Date of Birth": "05-05-1990",
+            "Subjects": "Computer Science",
+            "Hobbies": "Reading",
+            "Picture": "photo19.jpg",
+            "Current Address": "Mangalore, Karnataka",
+            "State": "Haryana",
+            "City": "Rohtak",
+            "UploadFilePath": NaN
+        },
+        {
+            "First Name": "Tanya",
+            "Last Name": "Desai",
+            "Email": "tanya.desai@test.com",
+            "Gender": "Female",
+            "Mobile Number": 9871234571,
+            "Date of Birth": "10-10-1995",
+            "Subjects": "Art",
+            "Hobbies": "Sports, Music",
+            "Picture": "photo20.jpg",
+            "Current Address": "Ahmedabad, Gujarat",
+            "State": "Rajasthan",
+            "City": "Ajmer",
+            "UploadFilePath": NaN
+        }
+    ]
+}

@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite" parallel="classes" thread-count="1">
+<listeners>
+<listener class-name="com.aa.utility.Listener"></listener>
+</listeners>
+  <test thread-count="5" name="Test">
+  <!-- parallel="classes" thread-count="1"-->
+   <parameter name="browser" value="chrome"></parameter>
+    <parameter name="environment" value="openqa"></parameter>
+    <classes>
+<class name="com.test.demoqa.PracticeFormTest"/>
+      <class name="com.test.demoqa.PracticeFormTestUsingJsonFile"/>
+      <class name="com.test.demoqa.TextBoxTest"/> 
+            <class name="com.test.demoqa.TextBoxTestUsingJsonFile"/> 
+
+       
+      </classes>
+  </test>
+  
+     <!--
+		
+		
+	      <class name="com.test.demoqa.TextBoxTest"/>
+	
+  <test thread-count="5" name="Test2">
+  
+   <parameter name="browser" value="chrome"></parameter>
+    <parameter name="environment" value="openqa"></parameter>
+    <classes>
+      <class name="com.test.demoqa.PracticeFormTest"/>
+      <class name="com.test.demoqa.TextBoxTest"/>
+    </classes>
+  </test>
+  
+  
+  <test thread-count="5" name="Test3">
+  
+   <parameter name="browser" value="edge"></parameter>
+    <parameter name="environment" value="openqa"></parameter>
+    <classes>
+      <class name="com.test.demoqa.PracticeFormTest"/>
+      <class name="com.test.demoqa.TextBoxTest"/>
+    </classes>
+  </test>
+  
+ Test -->
+</suite> <!-- Suite -->
