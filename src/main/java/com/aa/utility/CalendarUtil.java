@@ -169,6 +169,8 @@ public class CalendarUtil {
 	  
 		
 		ScrollHelper.scrollToElement(driver, dateInputElement);
+		
+		boolean isStartsWithYear=false;
 		// Log the date
 	   /// Library.dialogMassageLog(date);
 
@@ -176,27 +178,45 @@ public class CalendarUtil {
 	        Assert.fail("Invalid Date Provided: " + date);
 	    }
 
-//	    // Date format expected: "dd MMM yyyy" e.g. "21 Feb 1997"
-//	    String[] dateParts = date.split(" ");
-//	    if (dateParts.length != 3) {
-//	        Assert.fail("Date format should be 'dd MMM yyyy' but was: " + date);
-//	    }
-//	    String day = dateParts[0];
-//	    String month = dateParts[1];
-//	    String year = dateParts[2];
-//
-//	    
+	    String day ="";
+	    String month="";
+	    String year="";
+	    // Date format expected: "dd MMM yyyy" e.g. "21 Feb 1997"
+	    String[] dateParts = date.split("-");
+	    if (dateParts.length != 3) {
+	        Assert.fail("Date format should be 'dd MMM yyyy' but was: " + date);
+	    }
+	    
+	    day=dateParts[0];
+
+	    
+	    if(day.length()==4) {
+	    	
+	    	isStartsWithYear=true;
+	    	
+	    }
+	    
+	    
+	    
+	    if(isStartsWithYear) {
+	    	year=dateParts[0];
+	    	month=dateParts[1];
+	    	day=dateParts[2];
+	    	 month=monthStringReturn(month);
+	    }
+	    else {
+	    
 		String modifieddate=date;
 		 modifieddate = modifieddate.replaceAll("/", "");
        modifieddate=modifieddate.replaceAll("-", "");
     
        
-		String day = modifieddate.substring(0, 2);//31 
-        String month = modifieddate.substring(2, 4);
+		 day = modifieddate.substring(0, 2);//31 
+         month = modifieddate.substring(2, 4);
         
         month=monthStringReturn(month);
-       String year = modifieddate.substring(4, 8);
-
+        year = modifieddate.substring(4, 8);
+	    }
 		
       /// month=Library.mo
 	    // Click the date input to open calendar popup
