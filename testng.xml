@@ -9,18 +9,18 @@
    <parameter name="browser" value="chrome"></parameter>
     <parameter name="environment" value="openqa"></parameter>
     <classes>
-<class name="com.test.demoqa.PracticeFormTest"/>
-      <class name="com.test.demoqa.PracticeFormTestUsingJsonFile"/>
-      <class name="com.test.demoqa.TextBoxTest"/> 
-            <class name="com.test.demoqa.TextBoxTestUsingJsonFile"/> 
 
+      <class name="com.test.demoqa.TextBoxTestDataFromDB"/>
+    
        
       </classes>
   </test>
   
      <!--
 		
-		
+		  <class name="com.test.demoqa.TextBoxTest"/> 
+            <class name="com.test.demoqa.TextBoxTestUsingJsonFile"/> 
+
 	      <class name="com.test.demoqa.TextBoxTest"/>
 	
   <test thread-count="5" name="Test2">

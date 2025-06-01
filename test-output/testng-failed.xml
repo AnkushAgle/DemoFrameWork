@@ -8,15 +8,15 @@
     <parameter name="environment" value="openqa"/>
     <parameter name="browser" value="chrome"/>
     <classes>
-      <class name="com.test.demoqa.TextBoxTestUsingJsonFile">
+      <class name="com.test.demoqa.TextBoxTestDataFromDB">
         <methods>
-          <include name="Tear_Down"/>
           <include name="Aftermethod"/>
-          <include name="verifyTextBoxFormSubmission" invocation-numbers="0"/>
+          <include name="Tear_Down"/>
           <include name="BeforeClass"/>
+          <include name="verifyTextBoxFormSubmission" invocation-numbers="0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19"/>
           <include name="beforemethod"/>
         </methods>
-      </class> <!-- com.test.demoqa.TextBoxTestUsingJsonFile -->
+      </class> <!-- com.test.demoqa.TextBoxTestDataFromDB -->
     </classes>
   </test> <!-- Test(failed) -->
 </suite> <!-- Failed suite [Suite] -->
