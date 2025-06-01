@@ -8,15 +8,60 @@
     <parameter name="environment" value="openqa"/>
     <parameter name="browser" value="chrome"/>
     <classes>
+      <class name="com.test.demoqa.PracticeFormTestUsingJsonFile">
+        <methods>
+          <include name="Tear_Down"/>
+          <include name="Aftermethod"/>
+          <include name="BeforeClass"/>
+          <include name="beforemethod"/>
+          <include name="fillPracticeFormTest"/>
+        </methods>
+      </class> <!-- com.test.demoqa.PracticeFormTestUsingJsonFile -->
+      <class name="com.test.demoqa.PracticeFormTestDataFromDB">
+        <methods>
+          <include name="Aftermethod"/>
+          <include name="Tear_Down"/>
+          <include name="BeforeClass"/>
+          <include name="fillPracticeFormTest"/>
+          <include name="beforemethod"/>
+        </methods>
+      </class> <!-- com.test.demoqa.PracticeFormTestDataFromDB -->
+      <class name="com.test.demoqa.TextBoxTest">
+        <methods>
+          <include name="Aftermethod"/>
+          <include name="Tear_Down"/>
+          <include name="BeforeClass"/>
+          <include name="verifyTextBoxFormSubmission"/>
+          <include name="beforemethod"/>
+        </methods>
+      </class> <!-- com.test.demoqa.TextBoxTest -->
       <class name="com.test.demoqa.TextBoxTestDataFromDB">
         <methods>
           <include name="Aftermethod"/>
           <include name="Tear_Down"/>
           <include name="BeforeClass"/>
-          <include name="verifyTextBoxFormSubmission" invocation-numbers="0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19"/>
+          <include name="verifyTextBoxFormSubmission"/>
           <include name="beforemethod"/>
         </methods>
       </class> <!-- com.test.demoqa.TextBoxTestDataFromDB -->
+      <class name="com.test.demoqa.PracticeFormTest">
+        <methods>
+          <include name="Tear_Down"/>
+          <include name="Aftermethod"/>
+          <include name="BeforeClass"/>
+          <include name="fillPracticeFormTest"/>
+          <include name="beforemethod"/>
+        </methods>
+      </class> <!-- com.test.demoqa.PracticeFormTest -->
+      <class name="com.test.demoqa.TextBoxTestUsingJsonFile">
+        <methods>
+          <include name="Aftermethod"/>
+          <include name="Tear_Down"/>
+          <include name="verifyTextBoxFormSubmission"/>
+          <include name="BeforeClass"/>
+          <include name="beforemethod"/>
+        </methods>
+      </class> <!-- com.test.demoqa.TextBoxTestUsingJsonFile -->
     </classes>
   </test> <!-- Test(failed) -->
 </suite> <!-- Failed suite [Suite] -->

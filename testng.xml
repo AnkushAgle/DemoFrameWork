@@ -10,14 +10,20 @@
     <parameter name="environment" value="openqa"></parameter>
     <classes>
 
-      <class name="com.test.demoqa.TextBoxTestDataFromDB"/>
     
-       
-      </classes>
+ <class name="com.test.demoqa.PracticeFormTest"/>
+      <class name="com.test.demoqa.PracticeFormTestDataFromDB"/>
+      <class name="com.test.demoqa.PracticeFormTestUsingJsonFile"/>
+      <class name="com.test.demoqa.TextBoxTestDataFromDB"/>
+      <class name="com.test.demoqa.TextBoxTest"/>
+      <class name="com.test.demoqa.TextBoxTestUsingJsonFile"/>     
+      
+       </classes>
   </test>
   
      <!--
-		
+		      <class name="com.test.demoqa.TextBoxTestDataFromDB"/>
+
 		  <class name="com.test.demoqa.TextBoxTest"/> 
             <class name="com.test.demoqa.TextBoxTestUsingJsonFile"/> 
 
